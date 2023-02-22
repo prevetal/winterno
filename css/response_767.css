@@ -953,6 +953,20 @@
     }
 
 
+    .articles .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
     .articles .article .info
     {
         position: relative;
@@ -964,6 +978,12 @@
     .articles .article .name
     {
         font-size: 20px;
+    }
+
+
+    .articles .pagination
+    {
+        margin-top: 40px;
     }
 
 

@@ -569,10 +569,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 	// Подтверждение возраста
-	Fancybox.show([{
-		src: '#confirm_age_modal',
-		type: 'inline'
-	}])
+	// Fancybox.show([{
+	// 	src: '#confirm_age_modal',
+	// 	type: 'inline'
+	// }])
 })
 
 

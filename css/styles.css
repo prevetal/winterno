@@ -2903,6 +2903,23 @@ aside
 }
 
 
+.articles .row
+{
+    margin-bottom: -30px;
+    margin-left: -30px;
+
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.articles .row > *
+{
+    width: calc(50% - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
 .articles .article
 {
     color: currentColor;
@@ -2922,6 +2939,8 @@ aside
     overflow: hidden;
 
     padding-bottom: 75.177%;
+
+    background: linear-gradient(0deg, rgba(17, 3, 3, .84), rgba(17, 3, 3, .84));
 }
 
 .articles .article .thumb img
