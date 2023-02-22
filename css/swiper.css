@@ -1,0 +1,154 @@
+.swiper-button-next,
+.swiper-button-prev
+{
+    color: #fff;
+
+    top: auto;
+    bottom: 100%;
+
+    display: flex;
+
+    width: 51px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 108px;
+
+    transition: border-color .2s linear;
+    transform: none;
+
+    border: 1px solid transparent;
+    border-radius: 50%;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-button-prev
+{
+    right: 55px;
+    left: auto;
+}
+
+.swiper-button-next
+{
+    right: 0;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    display: none;
+}
+
+
+.swiper-button-next .icon,
+.swiper-button-prev .icon
+{
+    display: block;
+
+    width: 24px;
+    height: 14px;
+}
+
+.swiper-button-next .icon
+{
+    transform: rotate(180deg);
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover
+{
+    border-color: #823949;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+
+    width: 1440px;
+    max-width: 100%;
+    height: 107px;
+    margin: auto;
+
+    pointer-events: none;
+
+    border-top: 1px solid rgba(255, 255, 255, .37);
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-pagination-bullet
+{
+    position: relative;
+
+    display: block;
+
+    width: 9px;
+    height: 9px;
+
+    pointer-events: auto;
+
+    opacity: 1;
+    border-radius: 50%;
+    background: #fbfaec;
+}
+
+.swiper-pagination-bullet + .swiper-pagination-bullet
+{
+    margin-left: 14px !important;
+}
+
+.swiper-pagination-bullet:before
+{
+    position: absolute;
+    top: -4px;
+    left: -4px;
+
+    display: block;
+
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+
+    content: '';
+    transition: opacity .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+    border: 1px solid #fbfaec;
+    border-radius: 50%;
+}
+
+.swiper-pagination-bullet:hover:before,
+.swiper-pagination-bullet.active:before
+{
+    opacity: 1;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}

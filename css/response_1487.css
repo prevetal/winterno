@@ -1,0 +1,526 @@
+@media print,
+(max-width: 1487px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 320px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .top
+    {
+        padding: 15px 0;
+    }
+
+
+    header .bottom
+    {
+        padding: 23px 0;
+    }
+
+
+    header .phone,
+    header .callback_btn
+    {
+        margin-left: 100px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 40px;
+    }
+
+
+    header .btns
+    {
+        margin-left: 80px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter
+    {
+        padding: 24px 28px 28px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        padding: 20px 64px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 32px;
+
+        margin-bottom: 60px !important;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .about_info .data
+    {
+        padding: 170px 0;
+    }
+
+
+    .about_info .date
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .about_info .pre_title
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .about_info .title
+    {
+        font-size: 80px;
+    }
+
+
+    .about_info .img
+    {
+        width: calc(50% - 24px);
+        margin-right: -24px;
+    }
+
+
+
+    /*----------------------
+        About experience
+    ----------------------*/
+    .about_experience
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .about_experience .text
+    {
+        font-size: 32px;
+    }
+
+
+    .about_experience .img
+    {
+        width: 580px;
+    }
+
+
+
+    /*----------------------
+        About advantages
+    ----------------------*/
+    .about_advantages
+    {
+        margin-bottom: 140px;
+    }
+
+
+
+    /*--------------
+        About we
+    --------------*/
+    .about_we
+    {
+        padding: 170px 0;
+    }
+
+
+    .about_we .title
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*-------------------
+        Category info
+    -------------------*/
+    .category_info
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*-------------
+        Banners
+    -------------*/
+    .banners .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .banners .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .banners .banner .title
+    {
+        font-size: 30px;
+
+        padding: 40px 80px;
+    }
+
+
+
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        margin-bottom: 140px;
+        padding: 120px 0;
+    }
+
+
+    .about_block .data
+    {
+        width: 580px;
+    }
+
+
+    .about_block .block_head
+    {
+        margin-bottom: 200px;
+    }
+
+
+    .about_block .link
+    {
+        margin-top: 60px;
+        padding: 18px 60px;
+    }
+
+
+    .about_block .img
+    {
+        top: 80px;
+        right: 0;
+
+        width: 580px;
+        height: 1028px;
+        margin-right: 0;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .contacts_info .data > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .contacts_info .item .val
+    {
+        font-size: 32px;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 560px;
+        margin-top: 68px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .title
+    {
+        font-size: 32px;
+
+        padding: 35px;
+    }
+
+
+    .feedback .form
+    {
+        padding: 35px;
+    }
+
+
+
+    /*------------------------
+        LK info - personal
+    ------------------------*/
+    .lk_info .personal .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .lk_info .personal .section + .section
+    {
+        margin-top: 48px;
+    }
+
+
+    .lk_info .personal .fields
+    {
+        width: 680px;
+    }
+
+
+
+    /*----------------------
+        LK info - Orders
+    ----------------------*/
+    .lk_info .orders .titles > * + *,
+    .lk_info .orders .order .head > * + *
+    {
+        margin-left: 40px;
+    }
+
+
+    .lk_info .orders .titles
+    {
+        font-size: 17px;
+
+        padding-bottom: 15px;
+    }
+
+
+    .lk_info .orders .order .head
+    {
+        font-size: 17px;
+
+        padding: 31px 0;
+    }
+
+
+    .lk_info .orders .order th:first-child,
+    .lk_info .orders .order td:first-child
+    {
+        padding-left: 48px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .volumes
+    {
+        max-width: calc(100% - 297px);
+    }
+
+
+    .product_info .buy_btn
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        height: 60px;
+        margin-left: 24px;
+    }
+
+
+    .product_info .on_order_btn
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        width: 148px;
+        height: 60px;
+        margin-left: 24px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .row
+    {
+        margin-bottom: -48px;
+        margin-left: -24px;
+    }
+
+    .categories .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 48px;
+        margin-left: 24px;
+    }
+
+    .categories .row > *.big
+    {
+        width: calc(66.666% - 24px);
+    }
+
+
+    .categories .category
+    {
+        height: 360px;
+    }
+
+
+    .categories .category .name
+    {
+        top: 272px;
+        left: 40px;
+    }
+
+
+    .categories .category .thumb
+    {
+        transform: scale(.85);
+    }
+
+    .categories .category .thumb1
+    {
+        bottom: -88px;
+    }
+
+    .categories .category .thumb2
+    {
+        bottom: -80px;
+    }
+
+    .categories .category .thumb3
+    {
+        bottom: -68px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 40px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 32px;
+    }
+
+
+    .articles .article .date
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------
+        Brands
+    ------------*/
+    .brands
+    {
+        margin-bottom: 120px;
+        padding: 72px 0 68px;
+    }
+
+
+    .brands .item
+    {
+        height: 100px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .top
+    {
+        padding-bottom: 80px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
