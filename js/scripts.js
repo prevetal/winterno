@@ -573,6 +573,15 @@ document.addEventListener('DOMContentLoaded', function () {
 	// 	src: '#confirm_age_modal',
 	// 	type: 'inline'
 	// }])
+
+
+	// Карточка товара - Винтажи и объемы
+	$('.product_info .volumes .more_btn .btn').click(function(e) {
+		e.preventDefault()
+
+		$('.product_info .volumes label.hide').show()
+		$(this).hide()
+	})
 })
 
 

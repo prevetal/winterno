@@ -4241,6 +4241,8 @@ aside
 
 .product_info .volumes label
 {
+    position: relative;
+
     display: block;
 
     margin-bottom: 4px;
@@ -4249,13 +4251,19 @@ aside
     cursor: pointer;
 }
 
+.product_info .volumes label.hide
+{
+    display: none;
+}
+
+
 .product_info .volumes input
 {
     display: none;
 }
 
 
-.product_info .volumes label > div
+.product_info .volumes label > div:not(.dropdown)
 {
     font-size: 12px;
     line-height: 14px;
@@ -4279,7 +4287,7 @@ aside
     flex-wrap: wrap;
 }
 
-.product_info .volumes label > div:before
+.product_info .volumes label > div:not(.dropdown):before
 {
     position: absolute;
     top: 3px;
@@ -4307,20 +4315,95 @@ aside
 }
 
 
-.product_info .volumes input:checked + div
+.product_info .volumes input:checked + div:not(.dropdown),
+.product_info .volumes label > div:not(.dropdown):hover
 {
     color: #232323;
 
     background: #fbfaec;
 }
 
-.product_info .volumes input:checked + div:before
+.product_info .volumes input:checked + div:not(.dropdown):before,
+.product_info .volumes label > div:not(.dropdown):hover:before
 {
     background: #823949;
 }
 
 
-.product_info .volumes .all_link
+.product_info .volumes .dropdown
+{
+    position: absolute;
+    z-index: 5;
+    top: 100%;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    margin-top: 4px;
+
+    border-radius: 5px;
+    background: #fbfaec;
+}
+
+.product_info .volumes .dropdown:after
+{
+    position: absolute;
+    top: -4px;
+    left: 8px;
+
+    display: block;
+
+    width: 8px;
+    height: 8px;
+
+    content: '';
+
+    background: url(../images/ic_dropdown_arr.svg) 0 0 no-repeat;
+}
+
+.product_info .volumes .dropdown:before
+{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 4px;
+
+    content: '';
+}
+
+
+.product_info .volumes .dropdown > * + *
+{
+    border-top: 1px solid #dedede;
+}
+
+
+.product_info .volumes .dropdown a
+{
+    color: #232323;
+    font-size: 12px;
+    line-height: 14px;
+
+    display: block;
+
+    padding: 7px 9px;
+
+    text-decoration: none;
+}
+
+
+.product_info .volumes label:hover .dropdown
+{
+    display: block;
+}
+
+
+.product_info .volumes .more_btn
 {
     font-size: 14px;
     line-height: 18px;
@@ -4328,13 +4411,6 @@ aside
     margin-top: 11px;
 
     text-align: right;
-}
-
-.product_info .volumes .all_link a
-{
-    color: currentColor;
-
-    text-decoration: none;
 }
 
 
