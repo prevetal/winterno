@@ -582,6 +582,14 @@ document.addEventListener('DOMContentLoaded', function () {
 		$('.product_info .volumes label.hide').show()
 		$(this).hide()
 	})
+
+
+	// Товар в избранное
+	$('.product .favorite_btn, .product_info .favorite_btn').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+	})
 })
 
 

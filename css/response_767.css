@@ -117,6 +117,18 @@
 
 
 
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .exp
+    {
+        font-size: 14px;
+
+        margin-top: 24px;
+    }
+
+
+
     /*----------------
         Typography
     ----------------*/
@@ -749,6 +761,13 @@
     .product_info .product_name
     {
         font-size: 26px;
+    }
+
+
+    .product_info .favorite_btn
+    {
+        margin-top: -7px;
+        margin-bottom: -7px;
     }
 
 

@@ -130,6 +130,8 @@
 
     .form .input
     {
+        font-size: 16px;
+
         height: 60px;
         padding: 0 23px;
     }
@@ -138,6 +140,33 @@
     {
         height: 140px;
         padding: 19px 23px;
+    }
+
+
+    .form .nice-select .current
+    {
+        font-size: 16px;
+        line-height: 58px;
+
+        height: 60px;
+    }
+
+    .form .amount .nice-select .current
+    {
+        padding-left: 124px;
+    }
+
+    .form .nice-select .list .option
+    {
+        padding: 7px 40px;
+    }
+
+
+    .form .amount .label
+    {
+        font-size: 16px;
+
+        padding-left: 23px;
     }
 
 
@@ -151,6 +180,14 @@
         font-size: 17px;
 
         padding: 20px 60px;
+    }
+
+
+    .form .exp
+    {
+        font-size: 16px;
+
+        margin-top: 40px;
     }
 
 
@@ -666,8 +703,8 @@
 
     .lk_info .orders .col_price
     {
-        width: 108px;
-        min-width: 108px;
+        width: 128px;
+        min-width: 128px;
     }
 
 
@@ -742,6 +779,13 @@
     .product_info .product_name
     {
         font-size: 36px;
+    }
+
+
+    .product_info .favorite_btn
+    {
+        margin-top: -3px;
+        margin-bottom: -3px;
     }
 
 
